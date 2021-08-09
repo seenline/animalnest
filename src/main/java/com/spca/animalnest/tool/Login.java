@@ -18,7 +18,7 @@ import java.io.IOException;
 public class Login {
     public void getHttp(String code) {
         CloseableHttpClient client = HttpClientBuilder.create().build();
-        HttpGet get = new HttpGet("https://api.weixin.qq.com/sns/jscode2session?appid="+ com.wizz.sentencelib.config.BackgroundConfig.ACCESS_KEY1+"&secret="+ com.wizz.sentencelib.config.BackgroundConfig.ACCESS_KEY2+"&js_code="+code+"&grant_type=authorization_code");
+        HttpGet get = new HttpGet("https://api.weixin.qq.com/sns/jscode2session?appid="+ com.spca.animalnest.config.BackgroundConfig.ACCESS_KEY1+"&secret="+ com.spca.animalnest.config.BackgroundConfig.ACCESS_KEY2+"&js_code="+code+"&grant_type=authorization_code");
         CloseableHttpResponse response = null;
         try {
             response = client.execute(get);
