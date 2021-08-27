@@ -25,9 +25,9 @@ public class OssInteraction {
         String objectName;
 
 
-        String endpoint = "https://oss-cn-beijing.aliyuncs.com";
-        String accessKeyId = "LTAI5t9vmToJ2GxGr2ZUqMVz";
-        String accessKeySecret = "mDOVDDWzPBR2VJ4xB0igccsPC6FOYa";
+       // String endpoint = ;
+        //String accessKeyId = ;
+        //String accessKeySecret = ; 基本帐号配置权限
         String bucketName = "test-to-zsy";
 
         if (type.equals("picture")) {
