@@ -14,7 +14,7 @@ import java.util.Date;
 
 /**
  * @author seenline
- * @data 2021/8/26 9:51
+ * @date 2021/8/26 9:51
  * @description 与阿里云oss的交互
  */
 
