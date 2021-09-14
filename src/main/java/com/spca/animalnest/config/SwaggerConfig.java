@@ -15,7 +15,7 @@ import java.util.function.Predicate;
 
 /**
  * @author seenline
- * @data 2021/8/23 20:15
+ * @date 2021/8/23 20:15
  * @description swagger的配置类
  */
 @Configuration

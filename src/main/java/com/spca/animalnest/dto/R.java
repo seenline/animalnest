@@ -9,7 +9,7 @@ import org.springframework.expression.spel.ast.NullLiteral;
 
 /**
  * @author seenline
- * @data 2021/8/23 21:51
+ * @date 2021/8/23 21:51
  * @description
  */
 @ApiModel(description = "通用返回类")
