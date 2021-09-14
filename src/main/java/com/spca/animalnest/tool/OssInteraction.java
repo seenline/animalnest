@@ -25,15 +25,16 @@ public class OssInteraction {
         String objectName;
 
 
-       // String endpoint = ;
-        //String accessKeyId = ;
-        //String accessKeySecret = ; 基本帐号配置权限
+        String endpoint = "https://oss-cn-beijing.aliyuncs.com";
+        String accessKeyId ="LTAI5tGhGPXGs4xWR2aRGVYL";
+        String accessKeySecret = "kgbaS80aLU11Jsbr3621LGmtp4Sn37";
         String bucketName = "test-to-zsy";
 
         if (type.equals("picture")) {
             objectName = objectNameChoice[0];
         }
         else
+
             objectName=objectNameChoice[1];
 
         OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
